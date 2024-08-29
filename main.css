@@ -1,0 +1,160 @@
+*{
+     
+        font-family: "Roboto", na;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+body{
+    background-image: url(Title-Image.png);
+    overflow-x: auto;
+}
+.logo{
+   width: 90px;
+   margin-left: 4%;
+   margin-top: 0.5%;
+   
+}
+#topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+    gap: 20px;
+    color: black;
+    width: 800px;
+    /* background-color: wheat; */
+}
+.start{
+    font-weight: 800;
+}
+.miniLogo{
+    /* display: flex; */
+
+    margin-left: 90%;
+    gap: 30px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    margin-top: -30px;
+   
+}
+.symbol{
+    height: 5vh;
+}
+.show{
+    color: white;
+    font-family:"Roboto" ;
+}
+#show{
+    position: relative;
+    margin-top: 28%;
+    left:4%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+.title{
+    position: relative;
+    left:4%;
+    font-weight: 700;
+    font-size: 150px;
+    color:white;
+    margin-top: -10px;
+    
+}
+.play{
+    position: relative;
+    left:5%;
+    width: 80px;
+    height: 40px;
+    color: black;
+    font-weight: 600;
+}
+.arrow{
+    width: 1vw;
+}
+.info{
+    position: relative;
+    left:6%;
+    width: 130px;
+    height: 40px;
+    background-color:transparent;
+    /* border: none; */
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    width: 1.2vw;
+}
+#action{
+    display: flex;
+}
+#history{
+    position: relative;
+    left:5%;
+
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.arrow_right{
+    width: 1vw;
+}
+.see_again{
+    position: relative;
+    left:5%;
+    border: solid red;
+    display: flex;
+    margin-top: 25px;
+    width: 100vw;
+
+}
+.top{
+    position: relative;
+    left:5%;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 110vw;
+
+
+
+}
+#black{
+    background-color: black;
+    margin-left: -8px;
+    width: 110vw;
+    height: 180vh;
+}
+.rank{
+    margin-top: 30px;
+    display: flex;
+}
+.trend ,.sci{
+    position: relative;
+    left:5%;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 110vw;
+
+
+}
+.trending ,.sci-fi{
+    position: relative;
+    left:5%;
+    margin-top: 30px;
+    display: flex
+}
